@@ -17,10 +17,7 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   console.log('hello'.toLowerCase).toEqual("I can't hear you!")
-  console.log('HELLO'.toUpperCase)
-
-    expect(sayHiToGrandma('HELLO').toEqual("YES INDEED!")
- 
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
+  console.log('HELLO'.toUpperCase).toEqual("YES INDEED!")
+  console.log("I love you, Grandma.").toEqual("I love you, too.")
   }
   
