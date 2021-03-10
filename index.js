@@ -13,10 +13,7 @@ function logShout(string) {
 function logWhisper(string) {
   console.log('HELLO'.toLowerCase())
 }
-var lowercase = "I can't hear you!"
-var uppercase = "YES INDEED!"
-var = "I love you, Grandma."
 
 function sayHiToGrandma(string) {
-  return string "I can't hear you!"
-}
+    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
+  }
